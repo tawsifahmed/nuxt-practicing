@@ -1,15 +1,33 @@
 <template>
-  <div class="container mx-auto">
-    <div class="grid grid-cols-4 gap-x-6">
-      <div>
-        <InfluencerSearch />
-      </div>
-      <div class="col-span-3 bg-slate-50 rounded-lg">
-        <div class="grid grid-cols-3 p-4 gap-x-4">
-          <InfluencerList />
-          <InfluencerList />
-          <InfluencerList />
-          <InfluencerList />
+  <div class="card">
+    <img
+      style="border-top-left-radius: 10px; border-top-right-radius: 10px"
+      src="../assets/images/Subtract.png"
+      class=""
+      alt="..."
+    />
+    <div class="card-body">
+      <img
+        style="width: 98px"
+        src="../assets/images/Ellipse.1.svg"
+        class="card-img-top-ellipse"
+      />
+      <h5 class="card-title text-center">Nadir on the go</h5>
+      <p class="card-subtitle text-center">Nadir Nibras</p>
+      <p class="card-text text-center">Travel Filmmaker</p>
+      <span class="card-hr"><hr /></span>
+      <div class="social-link pl-14 pb-4">
+        <div class="fb">
+          <p class="like-follower">157K likes</p>
+          <p class="like-follower">628K followers</p>
+        </div>
+        <div class="insta">
+          <p class="like-follower">166K</p>
+          <p class="like-follower">followers</p>
+        </div>
+        <div class="yt">
+          <p class="like-follower">784K</p>
+          <p class="like-follower">subscribers</p>
         </div>
       </div>
     </div>
@@ -17,18 +35,11 @@
 </template>
 
 <script>
-import Header from "@/components/Header";
-import influencerSearch from "@/components/influencerSearch";
-import InfluencerList from "@/components/InfluencerList";
 export default {
-  name: "IndexPage",
-  components: {
-    Header,
-    influencerSearch,
-    InfluencerList,
-  },
+  name: "InfluencerList",
 };
 </script>
+
 
 <style>
 .card {
@@ -36,7 +47,7 @@ export default {
   border-radius: 10px;
 }
 .card-img-top-ellipse {
-  margin-top: -60px;
+  margin-top: -56px;
   margin-left: 132px;
 }
 .card-title {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Footer says <i>bye</i></h1>
+    <h1>Footer Section</h1>
   </div>
 </template>
 

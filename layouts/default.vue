@@ -1,7 +1,9 @@
 <template>
   <div>
     <Header />
-    <Nuxt />
+    <div class="outlet">
+      <Nuxt />
+    </div>
     <Footer />
   </div>
 </template>
@@ -18,4 +20,7 @@ export default {
 </script>
 
 <style>
+.outlet {
+  min-height: 100vh;
+}
 </style>
