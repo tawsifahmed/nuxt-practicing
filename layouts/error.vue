@@ -1,6 +1,6 @@
 <template> 
     <div> 
-     <h1>{{error.statusCode}} Not found</h1>
+     <h1>{{error.statusCode}} - <span class="red-text">Not found</span></h1>
     </div> 
   </template> 
 
@@ -15,3 +15,12 @@
     }
   };
 </script>
+
+<style scoped>
+
+.red-text{
+    color: red;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+</style>
