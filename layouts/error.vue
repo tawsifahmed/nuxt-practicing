@@ -1,5 +1,5 @@
 <template> 
-    <div> 
+    <div class="electric-animation"> 
      <h1>{{error.statusCode}} - <span class="red-text">Not found</span></h1>
     </div> 
   </template> 
@@ -34,5 +34,22 @@
     color: red;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.electric-animation:hover {
+  position: relative;
+  animation: electric 3s linear infinite;
+  cursor: default;
+  transition: 3s;
+}
+
+@keyframes electric {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg);
+    color: aquamarine;
+  }
 }
 </style>
