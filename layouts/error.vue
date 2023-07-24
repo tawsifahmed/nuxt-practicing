@@ -12,7 +12,19 @@
           type: Object,
           default: null,
       },
-    }
+    },
+    head(){
+      return{
+        title: 'Error Page',
+        meta:[
+          {
+            hid: 'error',
+            name: 'error',
+            content: 'This is the error page'
+          },
+        ],
+      }
+    },
   };
 </script>
 
