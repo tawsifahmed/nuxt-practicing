@@ -2,7 +2,7 @@
     <div class="electric-animation"> 
      <h1>{{error.statusCode}} - <span class="red-text">Not found</span></h1>
     </div> 
-  </template> 
+</template> 
 
 <script>
     export default {
@@ -29,7 +29,6 @@
 </script>
 
 <style scoped>
-
 .red-text{
     color: red;
     font-style: italic;
@@ -38,9 +37,9 @@
 
 .electric-animation:hover {
   position: relative;
-  animation: electric 3s linear infinite;
+  animation: electric 30s linear infinite;
   cursor: default;
-  transition: 3s;
+
 }
 
 @keyframes electric {
@@ -48,7 +47,7 @@
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(10deg);
+    transform: rotate(360deg);
     color: aquamarine;
   }
 }

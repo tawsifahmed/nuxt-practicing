@@ -39,6 +39,7 @@ export default {
   margin-top: -60px; 
   margin-left: 132px; 
 } 
+
 .card-title { 
   margin-top: 10px; 
   font-family: "Montserrat"; 
