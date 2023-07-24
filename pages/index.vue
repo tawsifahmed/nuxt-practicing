@@ -1,53 +1,53 @@
-<template>
-  <div class="container mx-auto">
-    <div class="grid grid-cols-4 gap-x-6">
-      <div>
-        <InfluencerSearch />
-      </div>
-      <div class="col-span-3 bg-slate-50 rounded-lg">
-        <div class="grid grid-cols-3 p-4 gap-x-4">
-          <InfluencerList />
-          <InfluencerList />
-          <InfluencerList />
-          <InfluencerList />
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import Header from "@/components/Header";
-import influencerSearch from "@/components/influencerSearch";
-import InfluencerList from "@/components/InfluencerList";
-export default {
-  name: "IndexPage",
-  components: {
-    Header,
-    influencerSearch,
-    InfluencerList,
-  },
-};
-</script>
-
-<style>
-.card {
-  width: 180px;
-  border-radius: 10px;
-}
-.card-img-top-ellipse {
-  margin-top: -60px;
-  margin-left: 132px;
-}
-.card-title {
-  margin-top: 10px;
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 28px;
-  text-transform: capitalize;
-  margin-bottom: 10px;
-}
+<template> 
+  <div class="container mx-auto"> 
+    <div class="grid grid-cols-4 gap-x-6"> 
+      <div> 
+        <InfluencerSearch /> 
+      </div> 
+      <div class="col-span-3 bg-slate-50 rounded-lg"> 
+        <div class="grid grid-cols-3 p-4 gap-x-4"> 
+          <InfluencerList /> 
+          <InfluencerList /> 
+          <InfluencerList /> 
+          <InfluencerList /> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</template> 
+ 
+<script> 
+import Header from "@/components/Header"; 
+import influencerSearch from "@/components/influencerSearch"; 
+import InfluencerList from "@/components/InfluencerList"; 
+export default { 
+  name: "IndexPage", 
+  components: { 
+    Header, 
+    influencerSearch, 
+    InfluencerList, 
+  }, 
+}; 
+</script> 
+ 
+<style> 
+.card { 
+  width: 180px; 
+  border-radius: 10px; 
+} 
+.card-img-top-ellipse { 
+  margin-top: -60px; 
+  margin-left: 132px; 
+} 
+.card-title { 
+  margin-top: 10px; 
+  font-family: "Montserrat"; 
+  font-weight: 700; 
+  font-size: 19px; 
+  line-height: 28px; 
+  text-transform: capitalize; 
+  margin-bottom: 10px; 
+} 
 .card-subtitle {
   font-family: "Abril Fatface";
   font-size: 24px;
