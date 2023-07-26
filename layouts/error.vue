@@ -37,7 +37,7 @@
 
 .electric-animation:hover {
   position: relative;
-  animation: electric 30s linear infinite;
+  animation: electric 90s linear infinite;
   cursor: default;
 
 }
